@@ -30,6 +30,8 @@ my %WriteMakefileArgs = (
     "Module::Install::Catalyst" => 0,
     "Tapper::CLI" => 0,
     "Tapper::Config" => 0,
+    "Tapper::MCP" => 0,
+    "Tapper::MCP::MessageReceiver" => 0,
     "Tapper::Reports::API" => 0,
     "Tapper::Reports::Receiver" => 0,
     "Tapper::Reports::Web" => 0,
@@ -37,12 +39,13 @@ my %WriteMakefileArgs = (
     "Tapper::TestSuite::AutoTest" => 0,
     "Tapper::TestSuite::Benchmark::Perl::Formance" => 0,
     "Tapper::TestSuite::HWTrack" => 0,
+    "Task::Tapper::Client" => 0,
     "Template::Plugin::Autoformat" => 0,
     "Test::WWW::Mechanize" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

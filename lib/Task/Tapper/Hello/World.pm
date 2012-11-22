@@ -1,13 +1,13 @@
 use strict;
 use warnings;
 package Task::Tapper::Hello::World;
-# git description: e9f0753
+# git description: v0.001-2-ga1c0b2c
 
 BEGIN {
   $Task::Tapper::Hello::World::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Task::Tapper::Hello::World::VERSION = '0.001';
+  $Task::Tapper::Hello::World::VERSION = '0.002';
 }
 # ABSTRACT: Tapper - The easiest start without hassle (hopefully)
 
@@ -22,7 +22,7 @@ Task::Tapper::Hello::World - Tapper - The easiest start without hassle (hopefull
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 TASK CONTENTS
 
@@ -63,6 +63,12 @@ version 0.001
 =head3 L<Tapper::TestSuite::Benchmark::Perl::Formance>
 
 =head3 L<Tapper::TestSuite::HWTrack>
+
+=head3 L<Tapper::MCP>
+
+=head3 L<Tapper::MCP::MessageReceiver>
+
+=head3 L<Task::Tapper::Client>
 
 1;
 

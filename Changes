@@ -1,5 +1,8 @@
 Revision history for Task-Tapper-Hello-World
 
+0.002     2012-11-22
+        - dzil pluginbundle TAPPER
+
 0.001     2012-11-19
         - add client test suites
         - fix wrong namespace
